@@ -6090,7 +6090,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e43e326c-ccd5-43dc-9970-94ae69b64a29/dbf52172-f6f3-431a-b997-7ebbd38244bc")
 		(sheetname "/Surge Protection/")
 		(sheetfile "surge_protection.kicad_sch")
 		(attr smd)
@@ -6187,6 +6186,7 @@
 		(property "Reference" "D6"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9303cd86-8982-485f-b242-3d594f22d61c")
 			(effects
 				(font
@@ -8435,6 +8435,7 @@
 		(property "Reference" "D5"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6a10a5b8-96f5-4178-94d5-1b65b325789f")
 			(effects
 				(font
@@ -9240,7 +9241,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e43e326c-ccd5-43dc-9970-94ae69b64a29/ae701892-ae52-4d94-977b-9dc0c3bc65af")
 		(sheetname "/Surge Protection/")
 		(sheetfile "surge_protection.kicad_sch")
 		(attr smd)
@@ -13231,6 +13231,7 @@
 		(property "Reference" "R17"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b87dbd47-cb5c-45f5-88a4-eaface321ccf")
 			(effects
 				(font
@@ -17645,6 +17646,32 @@
 		(at 58 64.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "9d47d7a1-61f8-44f1-aab0-ccdfdc5dd4fa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VOUT STAT"
+		(at 107 55 0)
+		(layer "F.SilkS" knockout)
+		(uuid "11e5ab4a-ae64-4be7-af26-3b36939389ce")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V STAT"
+		(at 115.5 88 0)
+		(layer "F.SilkS" knockout)
+		(uuid "853e74f7-e5c0-4780-8f26-6fce637f38ae")
 		(effects
 			(font
 				(size 0.6 0.6)
